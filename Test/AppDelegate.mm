@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    CircleView *CvIEW = [[CircleView alloc] init];
+//    CvIEW.arr = @[];
+//    ViewController *VC = [[ViewController alloc] init];
+//    VC.view.backgroundColor = [UIColor redColor];
+//
+//    UINavigationController  *navVc = [[UINavigationController alloc]  initWithRootViewController:VC];
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.rootViewController = navVc;
+//    [self.window makeKeyAndVisible];
+//    UICollectionViewController
     return YES;
 }
 

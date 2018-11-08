@@ -20,6 +20,20 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>云通讯蓝牙</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>云通讯日历</string>
+	<key>NSCameraUsageDescription</key>
+	<string>云通讯相机</string>
+	<key>NSContactsUsageDescription</key>
+	<string>云通讯联系人</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>云通讯麦克风</string>
+	<key>NSMotionUsageDescription</key>
+	<string>云通讯运动</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>云通讯相册</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
