@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "repoYBTest"
-  s.version      = "0.0.1"
-  s.summary      = "a repoYBTest demo"
+  s.version      = "1.0.1"
+  s.summary      = "A repoYBTest demo DEMO"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #
 
   # s.license      = "MIT (example)"
-    s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/onelibra/test.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/onelibra/test.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

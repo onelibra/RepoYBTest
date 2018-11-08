@@ -16,7 +16,7 @@
 @interface TwoController ()
 
 @property (nonatomic, copy) NSMutableArray  *var;
-@property (nonatomic, strong) CircleView  *cirleVc;
+//@property (nonatomic, strong) CircleView  *cirleVc;
 @end
 
 @implementation TwoController
