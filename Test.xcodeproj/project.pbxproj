@@ -16,13 +16,10 @@
 		2312705F1FCFE26C00833CE8 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2312705E1FCFE26C00833CE8 /* TestTests.m */; };
 		2312706A1FCFE26C00833CE8 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 231270691FCFE26C00833CE8 /* TestUITests.m */; };
 		231270791FCFE2DB00833CE8 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 231270781FCFE2DB00833CE8 /* CircleView.m */; };
-		2347501C2047D9CC00B2D3FD /* CCPSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2347500C2047D9CC00B2D3FD /* CCPSDKBundle.bundle */; };
-		2347501D2047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 234750182047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r.a */; };
 		2347501F2047DA4400B2D3FD /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2347501E2047DA4400B2D3FD /* libresolv.9.tbd */; };
 		234750212047DA5E00B2D3FD /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 234750202047DA5E00B2D3FD /* libicucore.tbd */; };
 		234750232047DA6B00B2D3FD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 234750222047DA6B00B2D3FD /* libsqlite3.tbd */; };
 		234750252047DA8300B2D3FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 234750242047DA8300B2D3FD /* libz.tbd */; };
-		234750272047DA9100B2D3FD /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 234750262047DA9000B2D3FD /* libstdc++.6.0.9.tbd */; };
 		234750292047DAA200B2D3FD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234750282047DAA200B2D3FD /* CoreTelephony.framework */; };
 		2347502B2047DAB000B2D3FD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2347502A2047DAB000B2D3FD /* MediaPlayer.framework */; };
 		2347502D2047DAB900B2D3FD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2347502C2047DAB900B2D3FD /* CFNetwork.framework */; };
@@ -37,7 +34,6 @@
 		2373C68B20CF96A800F85072 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2373C68A20CF96A800F85072 /* test.txt */; };
 		2373C68D20CF989A00F85072 /* condition.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2373C68C20CF989900F85072 /* condition.txt */; };
 		2373C68F20CFA32C00F85072 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 2373C68E20CFA32B00F85072 /* area.json */; };
-		23BEE98D83E9D2E32A520B18 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1A714DD24CAAA2AA17EB7A /* libPods-Test.a */; };
 		23D6917A2043DD8A00A1FD54 /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D691792043DD8A00A1FD54 /* TwoController.m */; };
 		23D6917D2043F97200A1FD54 /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D6917C2043F97200A1FD54 /* UIView+category.m */; };
 /* End PBXBuildFile section */
@@ -79,79 +75,10 @@
 		2312706B1FCFE26C00833CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		231270771FCFE2DB00833CE8 /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		231270781FCFE2DB00833CE8 /* CircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
-		23474FD32047D9CC00B2D3FD /* ECMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessage.h; sourceTree = "<group>"; };
-		23474FD42047D9CC00B2D3FD /* ECMeetingRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingRoom.h; sourceTree = "<group>"; };
-		23474FD52047D9CC00B2D3FD /* ECMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageBody.h; sourceTree = "<group>"; };
-		23474FD62047D9CC00B2D3FD /* ECSountTouchConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSountTouchConfig.h; sourceTree = "<group>"; };
-		23474FD72047D9CC00B2D3FD /* NetworkStatistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkStatistic.h; sourceTree = "<group>"; };
-		23474FD82047D9CC00B2D3FD /* ECBaseNoticeMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBaseNoticeMsg.h; sourceTree = "<group>"; };
-		23474FD92047D9CC00B2D3FD /* ECProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressDelegate.h; sourceTree = "<group>"; };
-		23474FDA2047D9CC00B2D3FD /* ECImageMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECImageMessageBody.h; sourceTree = "<group>"; };
-		23474FDB2047D9CC00B2D3FD /* ECGroupOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupOption.h; sourceTree = "<group>"; };
-		23474FDC2047D9CC00B2D3FD /* ECPersonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPersonInfo.h; sourceTree = "<group>"; };
-		23474FDD2047D9CC00B2D3FD /* ECGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupMember.h; sourceTree = "<group>"; };
-		23474FDE2047D9CC00B2D3FD /* ECGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroup.h; sourceTree = "<group>"; };
-		23474FDF2047D9CC00B2D3FD /* ECAudioConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECAudioConfig.h; sourceTree = "<group>"; };
-		23474FE02047D9CC00B2D3FD /* ECMultiVoiceMeetingMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMultiVoiceMeetingMsg.h; sourceTree = "<group>"; };
-		23474FE12047D9CC00B2D3FD /* ECMultiDeviceState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMultiDeviceState.h; sourceTree = "<group>"; };
-		23474FE22047D9CC00B2D3FD /* ECVideoMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVideoMessageBody.h; sourceTree = "<group>"; };
-		23474FE32047D9CC00B2D3FD /* ECUserStateMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUserStateMessageBody.h; sourceTree = "<group>"; };
-		23474FE42047D9CC00B2D3FD /* ECUserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUserState.h; sourceTree = "<group>"; };
-		23474FE52047D9CC00B2D3FD /* ECLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoginInfo.h; sourceTree = "<group>"; };
-		23474FE62047D9CC00B2D3FD /* ECMultiVideoMeetingMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMultiVideoMeetingMsg.h; sourceTree = "<group>"; };
-		23474FE72047D9CC00B2D3FD /* ECGroupNoticeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupNoticeMessage.h; sourceTree = "<group>"; };
-		23474FE82047D9CC00B2D3FD /* ECCallMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCallMessageBody.h; sourceTree = "<group>"; };
-		23474FE92047D9CC00B2D3FD /* ECStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECStruct.h; sourceTree = "<group>"; };
-		23474FEA2047D9CC00B2D3FD /* ECMessageNotifyMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageNotifyMsg.h; sourceTree = "<group>"; };
-		23474FEB2047D9CC00B2D3FD /* ECLocationMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLocationMessageBody.h; sourceTree = "<group>"; };
-		23474FEC2047D9CC00B2D3FD /* ECFriendNoticeMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECFriendNoticeMsg.h; sourceTree = "<group>"; };
-		23474FED2047D9CC00B2D3FD /* VoipCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoipCall.h; sourceTree = "<group>"; };
-		23474FEE2047D9CC00B2D3FD /* ECPreviewMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPreviewMessageBody.h; sourceTree = "<group>"; };
-		23474FEF2047D9CC00B2D3FD /* ECError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECError.h; sourceTree = "<group>"; };
-		23474FF02047D9CC00B2D3FD /* ECCreateMeetingParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCreateMeetingParams.h; sourceTree = "<group>"; };
-		23474FF12047D9CC00B2D3FD /* ECFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECFileMessageBody.h; sourceTree = "<group>"; };
-		23474FF22047D9CC00B2D3FD /* ECInterphoneMeetingMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECInterphoneMeetingMsg.h; sourceTree = "<group>"; };
-		23474FF42047D9CC00B2D3FD /* ECLiveChatRoomMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLiveChatRoomMember.h; sourceTree = "<group>"; };
-		23474FF52047D9CC00B2D3FD /* ECLiveChatRoomNoticeMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLiveChatRoomNoticeMessage.h; sourceTree = "<group>"; };
-		23474FF62047D9CC00B2D3FD /* ECLiveChatRoomRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLiveChatRoomRequest.h; sourceTree = "<group>"; };
-		23474FF72047D9CC00B2D3FD /* ECLiveChatRoomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLiveChatRoomInfo.h; sourceTree = "<group>"; };
-		23474FF82047D9CC00B2D3FD /* CameraDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDeviceInfo.h; sourceTree = "<group>"; };
-		23474FF92047D9CC00B2D3FD /* ECGroupMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupMatch.h; sourceTree = "<group>"; };
-		23474FFA2047D9CC00B2D3FD /* ECCmdMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCmdMessageBody.h; sourceTree = "<group>"; };
-		23474FFB2047D9CC00B2D3FD /* ECTextMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTextMessageBody.h; sourceTree = "<group>"; };
-		23474FFC2047D9CC00B2D3FD /* ECReadMessageMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECReadMessageMember.h; sourceTree = "<group>"; };
-		23474FFD2047D9CC00B2D3FD /* ECVoiceMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoiceMessageBody.h; sourceTree = "<group>"; };
-		23474FFE2047D9CC00B2D3FD /* ECMeetingMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingMember.h; sourceTree = "<group>"; };
-		234750002047D9CC00B2D3FD /* ECEnumDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECEnumDefs.h; sourceTree = "<group>"; };
-		234750022047D9CC00B2D3FD /* ECDeskDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeskDelegate.h; sourceTree = "<group>"; };
-		234750032047D9CC00B2D3FD /* ECMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageDelegate.h; sourceTree = "<group>"; };
-		234750042047D9CC00B2D3FD /* ECSystemDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSystemDelegate.h; sourceTree = "<group>"; };
-		234750052047D9CC00B2D3FD /* ECDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDelegateBase.h; sourceTree = "<group>"; };
-		234750062047D9CC00B2D3FD /* ECChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECChatDelegate.h; sourceTree = "<group>"; };
-		234750072047D9CC00B2D3FD /* ECGroupDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupDelegate.h; sourceTree = "<group>"; };
-		234750082047D9CC00B2D3FD /* ECMeetingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingDelegate.h; sourceTree = "<group>"; };
-		234750092047D9CC00B2D3FD /* ECVoIPCallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPCallDelegate.h; sourceTree = "<group>"; };
-		2347500A2047D9CC00B2D3FD /* ECNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNetworkDelegate.h; sourceTree = "<group>"; };
-		2347500B2047D9CC00B2D3FD /* ECLiveChatRoomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLiveChatRoomDelegate.h; sourceTree = "<group>"; };
-		2347500C2047D9CC00B2D3FD /* CCPSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CCPSDKBundle.bundle; sourceTree = "<group>"; };
-		2347500E2047D9CC00B2D3FD /* ECChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECChatManager.h; sourceTree = "<group>"; };
-		2347500F2047D9CC00B2D3FD /* ECGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupManager.h; sourceTree = "<group>"; };
-		234750102047D9CC00B2D3FD /* ECLiveChatRoomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLiveChatRoomManager.h; sourceTree = "<group>"; };
-		234750112047D9CC00B2D3FD /* ECVoIPSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPSetManager.h; sourceTree = "<group>"; };
-		234750122047D9CC00B2D3FD /* ECVoIPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPManager.h; sourceTree = "<group>"; };
-		234750132047D9CC00B2D3FD /* ECVoIPCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECVoIPCallManager.h; sourceTree = "<group>"; };
-		234750142047D9CC00B2D3FD /* ECMeetingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMeetingManager.h; sourceTree = "<group>"; };
-		234750152047D9CC00B2D3FD /* ECMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageManager.h; sourceTree = "<group>"; };
-		234750162047D9CC00B2D3FD /* ECManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECManagerBase.h; sourceTree = "<group>"; };
-		234750182047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = YTX_iOS_IM_SDK_v5.4.1r.a; sourceTree = "<group>"; };
-		234750192047D9CC00B2D3FD /* ECDeviceHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceHeaders.h; sourceTree = "<group>"; };
-		2347501A2047D9CC00B2D3FD /* ECDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceDelegate.h; sourceTree = "<group>"; };
-		2347501B2047D9CC00B2D3FD /* ECDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDevice.h; sourceTree = "<group>"; };
 		2347501E2047DA4400B2D3FD /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		234750202047DA5E00B2D3FD /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		234750222047DA6B00B2D3FD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		234750242047DA8300B2D3FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		234750262047DA9000B2D3FD /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		234750282047DAA200B2D3FD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		2347502A2047DAB000B2D3FD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		2347502C2047DAB900B2D3FD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -173,7 +100,6 @@
 		23D691792043DD8A00A1FD54 /* TwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
 		23D6917B2043F97200A1FD54 /* UIView+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
 		23D6917C2043F97200A1FD54 /* UIView+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
-		2D1A714DD24CAAA2AA17EB7A /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB4E8DC10E03DB676A2A816 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,13 +117,10 @@
 				2347502D2047DAB900B2D3FD /* CFNetwork.framework in Frameworks */,
 				2347502B2047DAB000B2D3FD /* MediaPlayer.framework in Frameworks */,
 				234750292047DAA200B2D3FD /* CoreTelephony.framework in Frameworks */,
-				234750272047DA9100B2D3FD /* libstdc++.6.0.9.tbd in Frameworks */,
 				234750252047DA8300B2D3FD /* libz.tbd in Frameworks */,
 				234750232047DA6B00B2D3FD /* libsqlite3.tbd in Frameworks */,
 				234750212047DA5E00B2D3FD /* libicucore.tbd in Frameworks */,
 				2347501F2047DA4400B2D3FD /* libresolv.9.tbd in Frameworks */,
-				23BEE98D83E9D2E32A520B18 /* libPods-Test.a in Frameworks */,
-				2347501D2047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,12 +153,10 @@
 				2347502C2047DAB900B2D3FD /* CFNetwork.framework */,
 				2347502A2047DAB000B2D3FD /* MediaPlayer.framework */,
 				234750282047DAA200B2D3FD /* CoreTelephony.framework */,
-				234750262047DA9000B2D3FD /* libstdc++.6.0.9.tbd */,
 				234750242047DA8300B2D3FD /* libz.tbd */,
 				234750222047DA6B00B2D3FD /* libsqlite3.tbd */,
 				234750202047DA5E00B2D3FD /* libicucore.tbd */,
 				2347501E2047DA4400B2D3FD /* libresolv.9.tbd */,
-				2D1A714DD24CAAA2AA17EB7A /* libPods-Test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,7 +164,6 @@
 		231270391FCFE26B00833CE8 = {
 			isa = PBXGroup;
 			children = (
-				23474FD12047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r */,
 				231270441FCFE26B00833CE8 /* Test */,
 				2312705D1FCFE26C00833CE8 /* TestTests */,
 				231270681FCFE26C00833CE8 /* TestUITests */,
@@ -309,129 +229,6 @@
 				2312706B1FCFE26C00833CE8 /* Info.plist */,
 			);
 			path = TestUITests;
-			sourceTree = "<group>";
-		};
-		23474FD12047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r */ = {
-			isa = PBXGroup;
-			children = (
-				23474FD22047D9CC00B2D3FD /* types */,
-				23474FFF2047D9CC00B2D3FD /* enums */,
-				234750012047D9CC00B2D3FD /* Delegate */,
-				2347500C2047D9CC00B2D3FD /* CCPSDKBundle.bundle */,
-				2347500D2047D9CC00B2D3FD /* Manager */,
-				234750172047D9CC00B2D3FD /* lib */,
-				234750192047D9CC00B2D3FD /* ECDeviceHeaders.h */,
-				2347501A2047D9CC00B2D3FD /* ECDeviceDelegate.h */,
-				2347501B2047D9CC00B2D3FD /* ECDevice.h */,
-			);
-			path = YTX_iOS_IM_SDK_v5.4.1r;
-			sourceTree = "<group>";
-		};
-		23474FD22047D9CC00B2D3FD /* types */ = {
-			isa = PBXGroup;
-			children = (
-				23474FD32047D9CC00B2D3FD /* ECMessage.h */,
-				23474FD42047D9CC00B2D3FD /* ECMeetingRoom.h */,
-				23474FD52047D9CC00B2D3FD /* ECMessageBody.h */,
-				23474FD62047D9CC00B2D3FD /* ECSountTouchConfig.h */,
-				23474FD72047D9CC00B2D3FD /* NetworkStatistic.h */,
-				23474FD82047D9CC00B2D3FD /* ECBaseNoticeMsg.h */,
-				23474FD92047D9CC00B2D3FD /* ECProgressDelegate.h */,
-				23474FDA2047D9CC00B2D3FD /* ECImageMessageBody.h */,
-				23474FDB2047D9CC00B2D3FD /* ECGroupOption.h */,
-				23474FDC2047D9CC00B2D3FD /* ECPersonInfo.h */,
-				23474FDD2047D9CC00B2D3FD /* ECGroupMember.h */,
-				23474FDE2047D9CC00B2D3FD /* ECGroup.h */,
-				23474FDF2047D9CC00B2D3FD /* ECAudioConfig.h */,
-				23474FE02047D9CC00B2D3FD /* ECMultiVoiceMeetingMsg.h */,
-				23474FE12047D9CC00B2D3FD /* ECMultiDeviceState.h */,
-				23474FE22047D9CC00B2D3FD /* ECVideoMessageBody.h */,
-				23474FE32047D9CC00B2D3FD /* ECUserStateMessageBody.h */,
-				23474FE42047D9CC00B2D3FD /* ECUserState.h */,
-				23474FE52047D9CC00B2D3FD /* ECLoginInfo.h */,
-				23474FE62047D9CC00B2D3FD /* ECMultiVideoMeetingMsg.h */,
-				23474FE72047D9CC00B2D3FD /* ECGroupNoticeMessage.h */,
-				23474FE82047D9CC00B2D3FD /* ECCallMessageBody.h */,
-				23474FE92047D9CC00B2D3FD /* ECStruct.h */,
-				23474FEA2047D9CC00B2D3FD /* ECMessageNotifyMsg.h */,
-				23474FEB2047D9CC00B2D3FD /* ECLocationMessageBody.h */,
-				23474FEC2047D9CC00B2D3FD /* ECFriendNoticeMsg.h */,
-				23474FED2047D9CC00B2D3FD /* VoipCall.h */,
-				23474FEE2047D9CC00B2D3FD /* ECPreviewMessageBody.h */,
-				23474FEF2047D9CC00B2D3FD /* ECError.h */,
-				23474FF02047D9CC00B2D3FD /* ECCreateMeetingParams.h */,
-				23474FF12047D9CC00B2D3FD /* ECFileMessageBody.h */,
-				23474FF22047D9CC00B2D3FD /* ECInterphoneMeetingMsg.h */,
-				23474FF32047D9CC00B2D3FD /* LiveChatRoomType */,
-				23474FF82047D9CC00B2D3FD /* CameraDeviceInfo.h */,
-				23474FF92047D9CC00B2D3FD /* ECGroupMatch.h */,
-				23474FFA2047D9CC00B2D3FD /* ECCmdMessageBody.h */,
-				23474FFB2047D9CC00B2D3FD /* ECTextMessageBody.h */,
-				23474FFC2047D9CC00B2D3FD /* ECReadMessageMember.h */,
-				23474FFD2047D9CC00B2D3FD /* ECVoiceMessageBody.h */,
-				23474FFE2047D9CC00B2D3FD /* ECMeetingMember.h */,
-			);
-			path = types;
-			sourceTree = "<group>";
-		};
-		23474FF32047D9CC00B2D3FD /* LiveChatRoomType */ = {
-			isa = PBXGroup;
-			children = (
-				23474FF42047D9CC00B2D3FD /* ECLiveChatRoomMember.h */,
-				23474FF52047D9CC00B2D3FD /* ECLiveChatRoomNoticeMessage.h */,
-				23474FF62047D9CC00B2D3FD /* ECLiveChatRoomRequest.h */,
-				23474FF72047D9CC00B2D3FD /* ECLiveChatRoomInfo.h */,
-			);
-			path = LiveChatRoomType;
-			sourceTree = "<group>";
-		};
-		23474FFF2047D9CC00B2D3FD /* enums */ = {
-			isa = PBXGroup;
-			children = (
-				234750002047D9CC00B2D3FD /* ECEnumDefs.h */,
-			);
-			path = enums;
-			sourceTree = "<group>";
-		};
-		234750012047D9CC00B2D3FD /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				234750022047D9CC00B2D3FD /* ECDeskDelegate.h */,
-				234750032047D9CC00B2D3FD /* ECMessageDelegate.h */,
-				234750042047D9CC00B2D3FD /* ECSystemDelegate.h */,
-				234750052047D9CC00B2D3FD /* ECDelegateBase.h */,
-				234750062047D9CC00B2D3FD /* ECChatDelegate.h */,
-				234750072047D9CC00B2D3FD /* ECGroupDelegate.h */,
-				234750082047D9CC00B2D3FD /* ECMeetingDelegate.h */,
-				234750092047D9CC00B2D3FD /* ECVoIPCallDelegate.h */,
-				2347500A2047D9CC00B2D3FD /* ECNetworkDelegate.h */,
-				2347500B2047D9CC00B2D3FD /* ECLiveChatRoomDelegate.h */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
-		2347500D2047D9CC00B2D3FD /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				2347500E2047D9CC00B2D3FD /* ECChatManager.h */,
-				2347500F2047D9CC00B2D3FD /* ECGroupManager.h */,
-				234750102047D9CC00B2D3FD /* ECLiveChatRoomManager.h */,
-				234750112047D9CC00B2D3FD /* ECVoIPSetManager.h */,
-				234750122047D9CC00B2D3FD /* ECVoIPManager.h */,
-				234750132047D9CC00B2D3FD /* ECVoIPCallManager.h */,
-				234750142047D9CC00B2D3FD /* ECMeetingManager.h */,
-				234750152047D9CC00B2D3FD /* ECMessageManager.h */,
-				234750162047D9CC00B2D3FD /* ECManagerBase.h */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		234750172047D9CC00B2D3FD /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				234750182047D9CC00B2D3FD /* YTX_iOS_IM_SDK_v5.4.1r.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		B9B597AA055E356764CAE4F6 /* Pods */ = {
@@ -559,7 +356,6 @@
 				2373C68920CF958D00F85072 /* address_js.js in Resources */,
 				2373C68F20CFA32C00F85072 /* area.json in Resources */,
 				2373C68D20CF989A00F85072 /* condition.txt in Resources */,
-				2347501C2047D9CC00B2D3FD /* CCPSDKBundle.bundle in Resources */,
 				2312704F1FCFE26B00833CE8 /* Assets.xcassets in Resources */,
 				2373C68B20CF96A800F85072 /* test.txt in Resources */,
 				2312704D1FCFE26B00833CE8 /* Main.storyboard in Resources */,
